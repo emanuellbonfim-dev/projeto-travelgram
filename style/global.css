@@ -28,3 +28,25 @@ body {
   background-color: var(--background-color);
   
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* pseudo class hover significa que quando eu passar o mouse em cima vai ter uma mudança de cor */
+a:hover {
+  color: var(--brand-color);
+  text-decoration: underline;
+}
+
+/* padding-inline / margin-inline será aplicado somente nas laterais */
+.container {
+  padding-inline: 32px;
+  max-width: 1280px;
+  margin-inline: auto;
+}
+
+.bg-suface-color {
+  background-color: var(--surface-color);
+}
